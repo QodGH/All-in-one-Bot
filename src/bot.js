@@ -1,3 +1,12 @@
+const express = require('express')
+const app = express();
+const port = 3000
+
+app.get('/', (req, res) => res.send('Odd is better.'))
+
+app.listen(port, () =>
+console.log(`Your app is listening a http://localhost:${port}`)
+);
 /* Bot discord.js setup */
 const { Client, Collection, GatewayIntentBits, Partials } = require("discord.js");
 const { User, Channel, GuildMember, GuildScheduledEvent, Message, Reaction, ThreadMember } = Partials
@@ -37,7 +46,7 @@ const { loadCommands } = require('./handlers/CommandHandler');
 const { loadComponents } = require('./handlers/ComponentHandler');
 
 /* Client Login */
-client.login(client.config.token)
+client.login(process.env.token)
 .then(() => {
     /* Start Handler */
     loadEvents(client);

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@discordjs/builders": "^1.2.0",
     "@discordjs/opus": "^0.8.0",
     "@discordjs/voice": "^0.11.0",
     "@distube/soundcloud": "^1.2.1",
@@ -13,6 +14,7 @@
     "discord.js": "^14.2.0",
     "distube": "^4.0.3",
     "dotenv": "^16.0.1",
+    "express": "^4.18.1",
     "ffmpeg-static": "^4.4.1",
     "libsodium-wrappers": "^0.7.10",
     "mongoose": "^6.5.2",
@@ -33,5 +35,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "![](https://images.hdqwalls.com/wallpapers/wall-e-eve-minimal-4k-je.jpg)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokiimax/EVE-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gokiimax/EVE-Bot/issues"
+  },
+  "homepage": "https://github.com/gokiimax/EVE-Bot#readme",
+  "devDependencies": {
+    "node": "^16.17.0"
+  }
 }
